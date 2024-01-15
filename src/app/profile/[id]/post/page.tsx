@@ -10,7 +10,7 @@ export default function ProfileIDPost() {
 
     return(
         <div className="bg-slate-950 flex flex-col h-screen ">
-            <h1 className="flex justify-center items-center text-5xl text-white mt-10 font-bold underline mb-10">{params.id}'s posts:</h1>
+            <h1 className="flex justify-center items-center text-5xl text-white mt-10 font-bold underline mb-10">{params.id}&apos;s posts:</h1>
             <ul className="flex flex-col items-start ml-16 lg:ml-96 text-white text-3xl">
                 <li className="mb-5">Post...</li>
                 <li className="mb-5">Post...</li>

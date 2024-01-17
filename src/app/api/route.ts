@@ -6,3 +6,12 @@ export async function GET() {
         hello: "world"
     })
 }
+
+export async function POST(request: Request) {
+
+    const data = await request.json()
+
+    return NextResponse.json({
+        data,
+    })
+}

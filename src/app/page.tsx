@@ -19,7 +19,7 @@ export default function Home() {
         <div className="text-white flex text-5xl mt-[72px] uppercase ">Nequistih</div>
         <Link href={'/profile'} className="flex justify-center items-center bg-orange-300  text-2xl cursor-pointer border border-gray-50 p-3 px-14 text-slate-950">Profiles</Link>
         <div className="w-[150px]">
-          <Image quality={1} src={nextSvg} alt="logo da next.js"></Image>
+          <Image src={nextSvg} alt="logo da next.js"></Image>
         </div>
       </div>
     </main>
